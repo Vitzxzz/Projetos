@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV-CALC</title>
+    <link rel="stylesheet" href="../ESTILOS/index.css">
+</head>
+<body>
+    <!--inicio do card-->
+    <div class="card">
+        <!--Primeira divisão maior, campo dos números.-->
+        <div class="numeros">
+            <!--Primeiro campo de números-->
+            <div>
+                <input class="num" id="num1" type="number" placeholder="Digite um número">
+            </div>
+            <!--Segundo campo de números-->
+            <div>
+                <input class="num" id="num2" type="number" placeholder="Digite um número">
+            </div>
+        </div>
+        <!--Segunda divisão maior, campo dos operadores.-->
+        <div class="operadores">
+            <!--Botão de soma-->
+            <div class="soma">
+                    <button id="soma" class="botao">SOMA (+)</button>
+            </div>
+            <!--Botão de subtração-->
+            <div class="subtrai">
+                    <button id="subtrai" class="botao">SUBTRAI (-)</button>
+            </div>
+            <!--Botão de multiplicação-->
+            <div class="multiplica">
+                    <button id="multiplica" class="botao">MULTIPLICA (x)</button>
+            </div>
+            <!--Botão de divisão-->
+            <div class="divide">
+                    <button id="divide" class="botao">DIVIDE (÷)</button>
+            </div>
+        </div>
+        <!--Terceira divisão maior, campo dos botões (limpar e confirmar).-->
+        <!--Botão limpar-->
+        <div class="limpar">
+                <button class="botao" id="btnLimpar">LIMPAR</button>
+        </div>
+        <!--Botão confirmar-->
+        <div class="confirmar">
+                <button class="botao" id="btnConfirmar">CONFIRMAR</button>
+        </div>
+        <!--Resultado-->
+        <div class="resultado">
+            <label id="resultado"></label>
+        </div>
+    </div>
+    <script src="../JAVASCRIPT/index.js"
+                defer></script>
+</body>
+</html>
